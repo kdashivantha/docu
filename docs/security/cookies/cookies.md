@@ -3,7 +3,7 @@ id: security-cookies
 title: Http Cookies
 ---
 
-# Fundamentals
+## Fundamentals
 
 Cookies are essentially **key-value** pairs attached to HTTP requests and responses in the form of headers.
 
@@ -11,30 +11,30 @@ The server sends cookies to the client using the Set-Cookie header. In return, t
 
 Cookies are managed by the browser and not the web application running in the browser
 
-# Analyzing cookies
+## Analyzing cookies
 
 ![](2023-05-05-06-24-37.png)
 
-## Scoping
+### Scoping
 
 ![](2023-05-05-06-27-52.png)
 
-## Domain
+### Domain
 
 ![](2023-05-05-06-28-13.png)
 
-## Path
+### Path
 
 ![](2023-05-05-06-28-25.png)
 
-## Expiration
+### Expiration
 
 ![](2023-05-05-06-28-43.png)
 
-## Flags
+### Flags
 
 ![](2023-05-05-06-29-08.png)
 
-## Cookie integrity
+### Cookie integrity
 
 ![](2023-05-05-06-29-32.png)
