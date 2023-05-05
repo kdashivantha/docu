@@ -9,7 +9,8 @@
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "serve": "docusaurus serve",
-    "clear": "docusaurus clear"
+    "clear": "docusaurus clear",
+    "gh": "cmd /C \"set GIT_USER=kdashivantha&& npm run deploy\""
   },
   "dependencies": {
     "@docusaurus/core": "^2.4.0",
